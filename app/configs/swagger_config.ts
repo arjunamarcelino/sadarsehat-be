@@ -17,6 +17,7 @@ const swaggerConfigSetup = (host: string) => ({
       { name: 'Auth', description: 'The endpoints for the authentication' },
       { name: 'Item', description: 'The endpoints for the item' },
       { name: 'Health', description: 'The endpoints for the health check' },
+      { name: 'Quiz', description: 'The endpoints for the quiz' },
     ],
     securityDefinitions: {
       bearerAuth: {
